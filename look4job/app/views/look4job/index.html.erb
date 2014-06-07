@@ -1,0 +1,12 @@
+<% if @jclist.empty?  -%>
+   Sorry, Look4job can't find job for ur requirement
+<% else -%>
+   <ul>
+      <% @jclist.each do |jcEntry| -%>
+         <li>NAME: <%= jcEntry.name -%></li>
+         <li>PROFILE: <%= jcEntry.profile -%></li>
+         <li>WELFARE: <%= jcEntry.welfare -%></li>
+         <li>PRODUCT: <%= jcEntry.product -%></li>
+      <% end -%>
+   </ul>
+<% end -%>

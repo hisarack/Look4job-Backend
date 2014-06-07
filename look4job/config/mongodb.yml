@@ -1,0 +1,11 @@
+development:
+   server: localhost
+   database: jobFinder
+
+test:
+   server: localhost
+   database: jobFinder
+
+production:
+   server: localhost
+   database: jobFinder
